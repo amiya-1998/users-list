@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+div#root {
+  height: 100%; /* remove this line to see div.app is no more 100% height */
+}
+
+div.app {
+  height: 100%;
+  background-color: cornsilk;
+}
+
+.btn,
+.card {
+  border-radius: 0;
+}
+
+.jumbotron-fluid {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
