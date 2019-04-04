@@ -2,7 +2,7 @@
 
 A User listing app made using ReactJS and Redux.
 
-### Live here: https://amiya-1998.github.io/phone-directory/#/
+### Live here:
 
 ## Features
 
