@@ -162,6 +162,17 @@ class Landing extends Component {
       });
     }
 
+    if (!users) {
+      return (
+        <div className="w-100 h-100 d-flex justify-content-center align-items-center">
+          <div className="lds-ripple">
+            <div />
+            <div />
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div>
         <input
@@ -171,6 +182,7 @@ class Landing extends Component {
           onChange={this.updateSearch}
           placeholder="Search By First Name"
         />
+
         <table className="table table-bordered" style={{ fontSize: '13px' }}>
           <thead>
             <tr>
