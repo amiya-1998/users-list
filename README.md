@@ -1,4 +1,4 @@
-# Phone Directory
+# User List
 
 A User listing app made using ReactJS and Redux.
 
